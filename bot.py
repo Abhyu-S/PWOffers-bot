@@ -13,8 +13,7 @@ except FileNotFoundError:
     subscribers = []
 
 # Bot Token from Environment Variable
-BOT_TOKEN = "8191521148:AAFwcbfFgGVTgZX6_HUa5ylkyD4ikWuDd64"
-
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 # Promo Message
 PROMO_MESSAGE = "\U0001F525 BIG NEWS FOR STUDENTS! \U0001F525\n\n\U0001F680 Get an **EXCLUSIVE STUDENT DISCOUNT** on **ALL ONLINE PW COURSES!** \U0001F4DA✨\n\n\U0001F4A1 IIT-JEE | NEET | UPSC | GATE | DEFENCE | MBA | CA | SSC & More!\n\n\U0001F3AF **Use Coupon Code: ABHSIN0003**\n\U0001F4B0 **Save BIG on your learning journey!**\n\n\U0001F4E2 Don't miss out—grab this offer NOW! \U0001F3C6\n\U0001F4A8 **Limited time only! Share with friends!**\n\n\U0001F517 Enroll today & ace your exams! \U0001F680\U0001F525\n\n#PW #StudentDiscount #ExamPrep #BigSavings"
 
